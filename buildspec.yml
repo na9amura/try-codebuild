@@ -1,0 +1,10 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      node: 14.x
+  build:
+    commands:
+      - echo started on `date`
+      - node ./script.js
+
